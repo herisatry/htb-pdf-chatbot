@@ -113,10 +113,9 @@ Ask me for full deploy tutorial if needed.
 Create `tests/` folder and use this pattern:
 
 ```bash
+pip install pytest
 pytest tests/
 ```
-
-Ask me to generate `tests/` scaffolding if you'd like!
 
 ---
 

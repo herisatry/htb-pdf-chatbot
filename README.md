@@ -1,11 +1,7 @@
-# 🛡️ HackTheBox Walkthrough PDF Chatbot (Modular RAG App)
+# 🛡️ HackTheBox PDF Chatbot — Modular RAG App
 
 This project is a **modular, fully local Retrieval-Augmented Generation (RAG) chatbot** built for security professionals and CTF players who collect **PDF-based walkthroughs** (e.g., from HackTheBox).  
 It allows you to query your own documents using a private AI assistant — no internet needed.
-
-...
-
-# 🛡️ HackTheBox PDF Chatbot — Modular RAG App
 
 A fully local, private, and modular Retrieval-Augmented Generation (RAG) chatbot for querying your HackTheBox walkthrough PDFs.  
 Runs on your machine using Ollama + Streamlit + LangChain + FAISS.

@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  pdf-chatbot:
+    build: .
+    container_name: htb-pdf-chatbot
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./pdfs:/app/pdfs
+    environment:
+      - APP_USERNAME=admin
+      - APP_PASSWORD=admin
+    restart: unless-stopped
